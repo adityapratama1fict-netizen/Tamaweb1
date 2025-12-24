@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Horizon University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href=""><img src="assets/kampus3.png" alt="logo horizonu" class="header-logo"></a></div>
+          <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="daftar.html">Pendaftaran</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="height: 60vh;">
+        <h1>SHANGHAI JIAO TONG UNIVERSITY</h1>
+    </section>
+
+    <div class="container">
+        <main class="main-content">
+    <article>
+        <h2>Visi & Misi</h2>
+        <p>Menjadi universitas unggul di tingkat global.</p>
+        
+        <h3>Video Profil Kampus</h3>
+<iframe 
+    width="100%" 
+    height="315" 
+    src="https://www.youtube.com/embed/INS9SRMP1h0" 
+    title="Shanghai Jiao Tong University - Live life to the full" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen 
+    style="margin-top:10px; border-radius:10px;">
+</iframe>
+</main>
+
+<script>
+    function validasiKomentar() {
+        const isi = document.getElementById('inputKomentar').value;
+        if (isi.trim() === "") {
+            alert("Maaf, kotak komentar tidak boleh kosong!");
+        } else {
+            alert("Terima kasih! Komentar Anda: '" + isi + "' telah terkirim.");
+            document.getElementById('inputKomentar').value = ""; // Kosongkan form
+        }
+    }
+</script>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Shanghai Jiao Tong University</p>
+    </footer>
+
+</body>
+</html>
